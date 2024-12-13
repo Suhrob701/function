@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jaro:opsz@6..72&family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
+body {
+    background-color: #d5c4b4;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header {
+    background: transparent;
+    padding: 20px;
+  }
+  
+  .container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+    ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    gap: 88px;
+    margin-left: 400px;
+  }
+  
+    ul li {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 82px;
+  }
+  
+  .toggle-buttons button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .light-button {
+    background-color: #ff9a00;
+    color: #000;
+  }
+  
+  .dark-button {
+    background-color: #000;
+    color: #ff9a00;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+  
+  .text-section {
+    max-width: 50%;
+  }
+
+  .h1{
+    width: 420px;
+    height: 112px;
+    font-size: 36px;
+    font-weight: 700;
+  }
+  
+  .p{
+    width: 426px;
+    height: 101px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 77px;
+  }
+  .details-button {
+    width: 195px;
+    height: 53px;
+    border-radius: 40px;
+    border: none;
+    background-color: #FA8305;
+    color: black;
+    margin-top: 80px;
+  }
